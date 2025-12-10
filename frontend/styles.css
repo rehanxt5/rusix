@@ -1,0 +1,68 @@
+:root{
+    background-color: #202020;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    --primary-color: #7e5cf5;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+header {
+
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2vw;
+    width: 100vw;
+    height: 64px;
+    min-height: 64px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    box-sizing: border-box;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    /* ...existing code... */
+}
+
+.header-app-logo {
+    width: 5vh;
+    height: 5vh;
+    padding-top: 1.7vh;
+}
+.header-app{
+    display: flex;
+    gap: 1vw;
+}
+.header-search input{
+    width: 35vw;
+    height: 6vh;
+    /* margin-top: 1.2vh; */
+    background-color: #2a2a2a;
+    border: none;
+    border-radius: 1vw;
+    text-align: left;
+    padding-left: 4vw;
+    background-image: url('./assets/icons/search.svg');
+    background-repeat: no-repeat;
+    background-position: left 1vw center;
+    background-size: 2vh 2vh;
+    color: white;
+
+}
+.header-search input:focus{
+    outline: none;
+    box-shadow: 0 0 0 2px white;
+    background-image: url(./assets/icons/search-white.svg);
+}
+.header-production{
+    padding-top: 0.2vh;
+    padding-right: 2vh;
+    font-size: 20px;
+}
+
+
