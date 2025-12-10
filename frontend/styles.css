@@ -55,6 +55,14 @@ header {
     color: white;
 
 }
+.header-search{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    z-index: 10; /* keep above other header elements */
+}
 .header-search input:focus{
     outline: none;
     box-shadow: 0 0 0 2px white;
