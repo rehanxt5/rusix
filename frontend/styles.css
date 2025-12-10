@@ -77,6 +77,7 @@ footer{
     justify-content: space-between;
     align-items: center;
     box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.15);
+    
 }
 .footer-music-control{
     position: absolute;
@@ -84,6 +85,7 @@ footer{
     transform: translateX(-50%);
     display: flex;
     align-items: center;
+    gap: 0.7vw;
 }
 
 .footer-music-control-shuffle{
@@ -102,14 +104,15 @@ footer{
     width: 3vh;
     height: 3vh;
     cursor: pointer;
+
     
 }
 .footer-music-control-play-pause{
     background-image: url(assets/icons/music-control-play.svg);
     background-repeat: no-repeat;
-    background-size: 2vh 2vh;
+    background-size: 2.5vh 2.5vh;
     width: 3vh;
-    height: 3vh;
+    height: 3.5vh;
     cursor: pointer;
     
 }
