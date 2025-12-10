@@ -3,3 +3,4 @@ pallete.png
 ./scripts/
 .gitignore
 .DS_Store
+.vscode/
