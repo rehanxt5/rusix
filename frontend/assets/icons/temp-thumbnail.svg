@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <rect x="2" y="2" width="60" height="60" rx="12" fill="#232323" stroke="#b3b3b3" stroke-width="4"/>
+  <circle cx="32" cy="32" r="16" fill="#7e5cf5"/>
+  <text x="32" y="38" text-anchor="middle" font-size="14" fill="#fff" font-family="Poppins, sans-serif">Album</text>
+</svg>

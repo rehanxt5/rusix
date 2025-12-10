@@ -65,4 +65,87 @@ header {
     font-size: 20px;
 }
 
+/* footer section starts here */
+footer{
+    background-color: black;
+    width: 100vw;
+    height: 80px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.15);
+}
+.footer-music-control{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+}
 
+.footer-music-control-shuffle{
+    background-image: url(assets/icons/music-control-shuffle.svg);
+    background-repeat: no-repeat;
+    background-size: 2vh 2vh;
+    width: 3vh;
+    height: 3vh;
+    cursor: pointer;
+    
+}
+.footer-music-control-prev{
+    background-image: url(assets/icons/music-control-prev.svg);
+    background-repeat: no-repeat;
+    background-size: 2vh 2vh;
+    width: 3vh;
+    height: 3vh;
+    cursor: pointer;
+    
+}
+.footer-music-control-play-pause{
+    background-image: url(assets/icons/music-control-play.svg);
+    background-repeat: no-repeat;
+    background-size: 2vh 2vh;
+    width: 3vh;
+    height: 3vh;
+    cursor: pointer;
+    
+}
+.footer-music-control-next{
+    background-image: url(assets/icons/music-control-next.svg);
+    background-repeat: no-repeat;
+    background-size: 2vh 2vh;
+    width: 3vh;
+    height: 3vh;
+    cursor: pointer;
+    
+}
+.footer-music-control-repeat{
+    background-image: url(assets/icons/music-control-repeat.svg);
+    background-repeat: no-repeat;
+    background-size: 2vh 2vh;
+    width: 3vh;
+    height: 3vh;
+    cursor: pointer;
+    
+}
+.footer-music-control-shuffle:hover {
+    background-image: url(assets/icons/music-control-shuffle-white.svg);
+}
+.footer-music-control-prev:hover {
+    background-image: url(assets/icons/music-control-prev-white.svg);
+}
+.footer-music-control-play-pause:hover {
+    background-image: url(assets/icons/music-control-play-white.svg);
+}
+.footer-music-control-pause:hover {
+    background-image: url(assets/icons/music-control-pause-white.svg);
+}
+.footer-music-control-next:hover {
+    background-image: url(assets/icons/music-control-next-white.svg);
+}
+.footer-music-control-repeat:hover {
+    background-image: url(assets/icons/music-control-repeat-white.svg);
+}
