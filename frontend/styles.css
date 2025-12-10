@@ -3,6 +3,7 @@
     color: white;
     font-family: "Poppins", sans-serif;
     --primary-color: #7e5cf5;
+    --grey-color:#b3b3b3;
     
 }
 body{
@@ -184,9 +185,19 @@ footer{
     background-image: url(./assets/icons/liked-songs.svg);
 }
 .search,.library,.liked-songs{
-    
+    color: var(--grey-color);
     background-repeat: no-repeat;
     background-position: left 1vw center;
     background-size: 2vh 2vh;
     padding-left: 4vw;
+}
+.search:hover,.library:hover,.liked-songs:hover{
+    color: #ffffff;
+    background-image: url(./assets/icons/search-white.svg);
+}
+.library:hover{
+    background-image: url(./assets/icons/library-white.svg);
+}
+.liked-songs:hover{
+    background-image: url(./assets/icons/liked-songs.svg);
 }
