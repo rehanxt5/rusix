@@ -182,9 +182,9 @@ footer{
     background-color: #282828;
     margin: 0 1vw;
 }
-.search{
+.home{
     margin-top: 3vh;
-    background-image: url(./assets/icons/search.svg);
+    background-image: url(./assets/icons/home.svg);
 }
 .library{
     background-image: url(./assets/icons/library.svg);
@@ -192,16 +192,17 @@ footer{
 .liked-songs{
     background-image: url(./assets/icons/liked-songs.svg);
 }
-.search,.library,.liked-songs{
+.home,.library,.liked-songs{
     color: var(--grey-color);
     background-repeat: no-repeat;
     background-position: left 1vw center;
     background-size: 2vh 2vh;
     padding-left: 4vw;
 }
-.search:hover,.library:hover,.liked-songs:hover{
+.home:hover,.library:hover,.liked-songs:hover{
     color: #ffffff;
-    background-image: url(./assets/icons/search-white.svg);
+    background-image: url(./assets/icons/home-white.svg);
+    cursor: pointer;
 }
 .library:hover{
     background-image: url(./assets/icons/library-white.svg);
@@ -209,3 +210,5 @@ footer{
 .liked-songs:hover{
     background-image: url(./assets/icons/liked-songs.svg);
 }
+
+/* main-section  */

@@ -15,10 +15,14 @@ headerSearchInputEle.addEventListener('keypress', (event) => {
             .then(data => {
                 // handle response data here
                 console.log(data);
+                data.results.forEach(video => {
+                    
+                });
             })
             .catch(error => {
                 console.error('Error:', error);
             });
+
         }
     }
 });
