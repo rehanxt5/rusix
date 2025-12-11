@@ -31,7 +31,6 @@ header {
     z-index: 1000;
     box-sizing: border-box;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-    /* ...existing code... */
 }
 
 .header-app-logo {
