@@ -4,3 +4,5 @@ pallete.png
 .gitignore
 .DS_Store
 .vscode/
+./notes/
+./userData/
